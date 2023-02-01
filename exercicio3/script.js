@@ -20,3 +20,17 @@ console.log(typeof(filhes))
 console.log(typeof(salario))
 console.log(typeof(comissao))
 console.log(typeof(anoAdmissao))
+
+console.log(`
+Nome completo: ${nomeCompleto}
+Data de nascimento: ${dataNascimento}
+Endereço: ${endereco}
+CPF: ${cpf}
+Escolaridade: ${escolaridade}
+CNH: ${cnh}
+Filhes: ${filhes}
+Cargo atual: ${cargoAtual}
+Salário: ${salario}
+Comissão: ${comissao}
+Ano de admissão: ${anoAdmissao}
+`)
